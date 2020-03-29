@@ -1,0 +1,26 @@
+li {
+    width: 100%;
+}
+
+.workout-item {
+    display: flex;
+    padding: 10px;
+    background: #44332a;
+    color: #fff;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+    border-top-right-radius: 5px;
+    box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.55);
+}
+
+.workout_item_date {
+    color: #d2ffd7;
+}
+
+.workout-item .cross {
+    font-size: 20px;
+    cursor: pointer;
+    font-weight: 900;
+    color: #f24352;
+}

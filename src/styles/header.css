@@ -1,0 +1,9 @@
+.header {
+    display: flex;
+    background: #2a2e3d;
+    padding: 15px;
+    color: #fff;
+    width: 100%;
+    box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.55);
+
+}
