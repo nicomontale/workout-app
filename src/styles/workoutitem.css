@@ -8,7 +8,7 @@ li {
     background: #44332a;
     color: #fff;
     justify-content: space-between;
-    width: 100%;
+
     margin-top: 10px;
     border-top-right-radius: 5px;
     box-shadow: 3px 3px 5px 0px rgba(50, 50, 50, 0.55);
@@ -18,9 +18,34 @@ li {
     color: #d2ffd7;
 }
 
+
+.workout-item span {
+    display: flex;
+    justify-content: center;
+
+    width: 25%;
+}
+
+.workout-item span :last-child {
+    width: 20%;
+    text-align: right;
+
+}
+
+span .workout_item_date {
+    width: 35%;
+
+}
+
 .workout-item .cross {
+    justify-content: flex-end;
     font-size: 20px;
     cursor: pointer;
     font-weight: 900;
     color: #f24352;
+}
+
+span .workout_item_name {
+    width: 40%;
+    justify-content: flex-start;
 }
