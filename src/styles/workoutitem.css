@@ -49,3 +49,13 @@ span .workout_item_name {
     width: 40%;
     justify-content: flex-start;
 }
+
+.workout_item_count.up {
+    font-weight: 900;
+    color: greenyellow;
+}
+
+.workout_item_count.down {
+    font-weight: 900;
+    color: red;
+}
