@@ -18,9 +18,9 @@ export default function workoutBlock({ onCreateWorkout }) {
     return (
 
         <form onSubmit={onSubmitHadler} className="workout-block">
-            <input type="text" placeholder="Nome" name="name" />
-            <input type="number" placeholder="Rip, time" name="reps" />
-            <input type="date" name="date" />
+            <input type="text" placeholder="Nome" name="name" className="form__field" />
+            <input type="number" placeholder="Rip, time" name="reps" className="form__field" />
+            <input type="date" name="date" className="form__field" />
             <button className="save-button">Save</button>
         </form>
     )
