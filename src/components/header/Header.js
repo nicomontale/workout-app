@@ -4,7 +4,7 @@ export default function Header() {
     return (
         <header className="header">
 
-            <h1>Workout Progress</h1>
+            <h1>Workout list and improve </h1>
         </header>
     )
 }
