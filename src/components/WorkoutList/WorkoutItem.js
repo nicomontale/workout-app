@@ -7,10 +7,7 @@ export default function WorkoutItem({
 
 ) {
     return (
-        <li onClick=
-            {
-                () => onDelete(id)
-            }>
+        <li>
             <div className="workout-item">
                 <span className="workout_item_name">
                     {name}
@@ -27,5 +24,8 @@ export default function WorkoutItem({
                     date
                 }
 
-                </span> <span className="cross">X</span> </div> </li>)
+                </span> <span className="cross"><i class="fa fa-trash" aria-hidden="true" onClick=
+                    {
+                        () => onDelete(id)
+                    }></i></span> </div> </li>)
 }

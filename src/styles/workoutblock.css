@@ -6,28 +6,81 @@
 }
 
 .workout-block input {
-    background: #698086;
+    background: transparent;
     border: 0;
+    border-bottom: 1px solid #3498db;
+    color: inherit;
     padding: 10px;
-    color: #fff;
+    font-size: inherit;
+    transition: border-bottom 250ms ease-in;
+
 
 }
 
+.workout-block input:focus {
+    border-bottom-width: 3px;
+}
+
 .workout-block input::placeholder {
-    
-    color: #fff;
+
+    color: #3498db;
     font-weight: 700;
+    opacity: 0.8;
+
+}
+
+.workout-block input:hover::placeholder {
+
+    color: #3498db;
+    font-weight: 100;
+    opacity: 0.4;
+    transition: 0.8s;
+
+}
+
+
+.workout-block button {
+    border: 1px solid #3498db;
+    background: none;
+    padding: 10px;
+    font-size: inherit;
+    cursor: pointer;
+    margin: 10px;
+    transition: 0.8s;
+    position: relative;
+    overflow: hidden;
+
 
 }
 
 .workout-block button {
+    color: #3498db;
+}
 
-    border: 0;
-    padding: 10px;
-    background: #698086;
+.workout-block button:hover {
     color: #fff;
-    font-weight: 900;
 
 
+}
 
+.workout-block button::before {
+
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 0%;
+    background: #3498db;
+    z-index: -1;
+    transition: 0.8;
+}
+
+.workout-block button::before {
+    top: 0;
+    border-radius: 0 0 50% 50%;
+
+}
+
+.workout-block button:hover::before {
+    height: 180%;
 }
